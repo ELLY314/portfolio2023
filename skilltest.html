@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box; font : inherit; color: inherit;}
+        a{text-decoration: none;}
+        ul,ol{list-style: none;}
+        section{height: 100vh;}
+        .inner{margin: 0 auto; padding: 0 20px; max-width: 1340px;}
+        .skill-wrap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skill-wrap ul{width: 45%;}
+        .skill-wrap ul li{}
+        .skill-wrap ul li:not(:last-child){
+            margin-bottom: 50px;
+        }
+        .skill-wrap ul li .top{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .skill-wrap ul li .top .icon{width: 15%;}
+        .skill-wrap ul li .top .icon img{width: 100%;}
+        .skill-wrap ul li .top .progress{
+            width: 80%;
+        }
+        .skill-wrap ul li .btm{
+            padding-left: 20%;
+        }
+    </style>
+</head>
+<body>
+    <section></section>
+    <section></section>
+    <section class="skill">
+        <div class="inner">
+            <div class="skill-wrap">
+                <ul>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_premiere.svg" alt="">
+                            </div>
+                            <div class="progress pro1"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                사진 보정 및 편집, 목업 활용이 가능합니다. <br>
+                                팝업, 배너, 로고, 아이콘, 상세페이지와 같은 디자인 작업을 할 수 있습니다
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_after_effects.svg" alt="">
+                            </div>
+                            <div class="progress pro2"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                사진 보정 및 편집, 목업 활용이 가능합니다. <br>
+                                팝업, 배너, 로고, 아이콘, 상세페이지와 같은 디자인 작업을 할 수 있습니다
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_illust.svg" alt="">
+                            </div>
+                            <div class="progress pro3"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                사진 보정 및 편집, 목업 활용이 가능합니다. <br>
+                                팝업, 배너, 로고, 아이콘, 상세페이지와 같은 디자인 작업을 할 수 있습니다
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_photoshop.svg" alt="">
+                            </div>
+                            <div class="progress pro4"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                사진 보정 및 편집, 목업 활용이 가능합니다. <br>
+                                팝업, 배너, 로고, 아이콘, 상세페이지와 같은 디자인 작업을 할 수 있습니다
+                            </p>
+                        </div>
+                    </li>
+                    
+                </ul>
+                <ul>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_html.svg" alt="">
+                            </div>
+                            <div class="progress pro5"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                디자인 시안을 보고 웹표준과 웹접근성을 준수하여 여러 브라우저에서 보더라도 동일하게 볼 수 있는 웹페이지를 완성 할 수 있습니다.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_css.svg" alt="">
+                            </div>
+                            <div class="progress pro6"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                디자인 시안에 맞는 레이아웃 배치와 디자인, 효과를 넣어 줄 수 있습니다. <br>
+                                미디어쿼리를 활용한 반응형 웹페이지를 제작 할 수 있습니다.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_js.svg" alt="">
+                            </div>
+                            <div class="progress pro7"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                자바스크립트 표준 ES5 / ES6 버전을 기준으로 여러가지 데이터 형태를 이해하고
+                                웹페이지 동작에 필요한 스크립트 언어를 작성 할 수 있습니다.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="icon">
+                                <img src="img/folder_git.svg" alt="">
+                            </div>
+                            <div class="progress pro8"></div>
+                        </div>
+                        <div class="btm">
+                            <p>
+                                프로젝트를 생성하고 버전관리를 할 수 있습니다.
+                            </p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
+<script>
+    // Function to create progress bar
+    function progressBar(selector, gauge){
+        var bar = new ProgressBar.Line(selector, {
+            strokeWidth: 4,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#d85252',
+            trailColor: '#eee',
+            trailWidth: 3,
+        });
+        bar.animate(gauge);
+        return bar; // Return the progress bar instance
+    }
+
+    // Function to handle intersection observer callback
+    function handleIntersection(entries, observer) {
+        entries.forEach(function(item){
+            if (item.isIntersecting) {
+                // Start the progress bars when the "skill" section comes into view
+                bar1.animate(0.5);
+                bar2.animate(1.0);
+                bar3.animate(0.8);
+                bar4.animate(0.8);
+                bar5.animate(0.8);
+                bar6.animate(0.8);
+                bar7.animate(0.8);
+                bar8.animate(0.8);
+            } else {
+                // Reverse the progress bars when the "skill" section is out of view
+                bar1.animate(0);
+                bar2.animate(0);
+                bar3.animate(0);
+                bar4.animate(0);
+                bar5.animate(0);
+                bar6.animate(0);
+                bar7.animate(0);
+                bar8.animate(0);
+            }
+        });
+    }
+
+    // Create an intersection observer
+    const observer = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
+
+    // Select the "skill" section
+    const skillSection = document.querySelector('.skill');
+
+    // Start the progress bars with initial values
+    let bar1 = progressBar(".pro1", 0);
+    let bar2 = progressBar(".pro2", 0);
+    let bar3 = progressBar(".pro3", 0);
+    let bar4 = progressBar(".pro4", 0);
+
+    let bar5 = progressBar(".pro5", 0);
+    let bar6 = progressBar(".pro6", 0);
+    let bar7 = progressBar(".pro7", 0);
+    let bar8 = progressBar(".pro8", 0);
+
+    // Observe the "skill" section
+    observer.observe(skillSection);
+</script>
+
+<!-- http://rinseo.com/ -->
