@@ -346,18 +346,40 @@
     </section>
     <section class="contact">
         <div class="inner">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/linilinilyn@gmail.com" method="post">
-                <fieldset id="fs-frm-inputs">
-                  <label for="full-name">Full Name</label>
-                  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                  <label for="email-address">Email Address</label>
-                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                  <label for="message">Message</label>
-                  <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                </fieldset>
-                <input type="submit" value="Submit">
-            </form>
+            <div class="title">
+                <h2>CONTACT</h2>
+            </div>
+            <div class="contact-wrap">
+                <form action="https://formsubmit.co/tcb03102@naver.com" method="POST" target="_blank" class="mail-form">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="포트폴리오 연락">
+                    <p>Name <i class="fa fa-user"></i></p>
+                    <input type="text" placeholder="성함*" name="name" required class="input">
+                    <p>Email Address <i class="fa-solid fa-envelope"></i></p>
+                    <input type="email" name="email" placeholder="이메일*" required class="input">
+                    <p>Message <i class="fa fa-pencil"></i></p>
+                    <textarea name="message" placeholder="메세지*"></textarea>
+                    <input type="hidden" name="_next" value="https://elly314.github.io/portfolio2023/thanks.html">
+                    <button type="submit" class="btn">Send</button>
+                </form>
+                <ul class="icon-wrap">
+                    <li>
+                        <a href="#">
+                            <img src="img/ic_kakao.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/ic_insta.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/ic_github.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <footer class="footer"></footer>
